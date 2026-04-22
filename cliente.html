@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Mi primer formulario para e-mail</title>
+  <link rel="stylesheet" href="estilos.css">
+  <link rel="stylesheet" href="estilos2.css">
+</head>
+
+<body>
+       <nav class="navbar">
+    <ul>
+        <li><a href="presentacion.html">Presentaci&oacute;n</a></li>
+        <li><a href="generales.html">Generales</a></li>
+        <li><a href="academicos.html">Ac&aacute;demicos</a></li>
+        <li><a href="#Laborales">Laborales</a></li>
+        <li><a href="pasatiempos.html">Pasatiempos</a></li>
+        <li><a href="referencias.html">Referencias Personales</a></li>
+        <li><a href="multimedia.html">Multimedia</a></li>
+        <li><a href="cliente.html">Cliente</a></li>
+    </ul>
+</nav>
+<form action="mejiamacariomelissa@gmail.com"
+      method="post" enctype="text/plain">
+  <ul>
+    <li>
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="user_name" />
+    </li>
+    <li>
+      <label for="mail">Correo electrónico:</label>
+      <input type="email" id="mail" name="user_email" />
+    </li>
+    <li>
+      <label for="msg">Mensaje:</label>
+      <textarea id="msg" name="user_message"></textarea>
+    </li>
+    <li class="button">
+      <input type="submit" value="enviar">
+    </li>
+  </ul>
+</form>
+</body>
+</html>
